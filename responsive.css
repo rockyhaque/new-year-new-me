@@ -16,7 +16,7 @@
     .failure-container{
         flex-direction: column;
         padding: 0px 16px;
-        font-size: 8;
+        margin-top: 16px;
     }
 
     .failure-img{
@@ -34,6 +34,30 @@
 
     .failure-text > h1{
         margin-top: 64px;
+    }
+
+    /* Plan Section  */
+    .all-box{
+        flex-direction: column;
+    }
+
+    .box{
+        margin-top: 35px;
+    }
+
+    .plan-banner{
+        width: 75vw;
+        height: 40vh;
+    }
+
+    .plan-banner-items h2{
+        font-size: 16px;
+    }
+
+    .call-btn{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px 10px;
     }
 }
 

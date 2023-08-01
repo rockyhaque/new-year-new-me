@@ -33,7 +33,7 @@
     margin-top: 20px;
 }
 
-.contact-btn{
+.primary-btn{
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
@@ -89,3 +89,81 @@
     font-size: 20px;
 }
 
+/* Plan Section  */
+
+.plan-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.all-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box{
+    
+    text-align: center;
+}
+
+.box h3,
+.box p{
+    margin-top: 10px;
+}
+
+
+.plan-banner{
+    background-image: url('./images/watch.png'), url(./images/gradient1.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1140px;
+    margin: auto;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    margin-top: 64px;
+
+}
+
+.plan-banner-items{
+    color: white;
+}
+
+/* Footer Section */
+.footer-container{
+    background: #151414;
+    height: 40vh;
+    border: 1px solid rgb(0, 17, 255);  
+}
+
+.footer-info{
+    color: white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid rgb(255, 230, 0);
+    /* align-items: center; */
+}
+
+.left-footer{
+    width: 50%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    border: 1px solid red;
+    /* padding: 130px 0px; */
+    
+}
+
+.footer-icon{
+    display: flex;
+}
+
+.right-footer{
+    width: 50%;
+}
