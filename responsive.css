@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+
+    /* hero section */
+    .hero-container{
+        height: 400px;
+        padding-right: 0px;
+    }
+    
+    .hero-items{
+        width: 100%;
+        text-align: center;
+        padding: 0px 16px;
+    }
+
+    /* failure secdtion */
+    .failure-container{
+        flex-direction: column;
+        padding: 0px 16px;
+        font-size: 8;
+    }
+
+    .failure-img{
+        width: 100%; 
+    }
+
+    .failure-img img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .failure-text{
+        width: 100%;
+    }
+
+    .failure-text > h1{
+        margin-top: 64px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+}
+

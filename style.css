@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Shared Styles  */
+
+
+/* Hero styles  */
+.hero-container{
+    background-image: url('./images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 500px;
+    padding-right: 40px;
+}
+
+.hero-items{
+    color: white; 
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 40%;
+}
+
+.hero-items p{
+    margin-top: 20px;
+}
+
+.contact-btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* Failure Section */
+.failure-container{
+    display: flex;
+    margin-top: 128px;
+}
+
+.failure-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.failure-img img{
+    width: 70%;
+    height: auto;
+    margin-left: 70px;
+}
+
+.failure-text{
+    width: 50%;
+}
+
+.failure-text > p{
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.check
+{
+    color: #16D887;
+}
+
+.check-text{
+    font-size: 20px;
+}
+
