@@ -65,6 +65,10 @@
 
 .failure-text{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .failure-text > p{
@@ -136,8 +140,9 @@
 /* Footer Section */
 .footer-container{
     background: #151414;
-    height: 40vh;
-    border: 1px solid rgb(0, 17, 255);  
+    /* height: 40vh; */
+    display: flex;
+    margin-top: 130px;
 }
 
 .footer-info{
@@ -146,8 +151,8 @@
     margin: auto;
     display: flex;
     /* justify-content: space-between; */
-    border: 1px solid rgb(255, 230, 0);
-    /* align-items: center; */
+    margin: 80px auto;
+
 }
 
 .left-footer{
@@ -155,15 +160,31 @@
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
-    border: 1px solid red;
     /* padding: 130px 0px; */
     
 }
 
+.left-footer p{
+    margin-top: 16px;
+}
+
 .footer-icon{
     display: flex;
+    margin-top: 16px;
+    gap: 10px;
+    font-size: 30px;
 }
 
 .right-footer{
     width: 50%;
+    /* margin: auto; */
+}
+
+form{
+    margin-top: 16px;
+}
+
+input{
+    padding: 20px 160px 20px 20px;
+    background: transparent;
 }

@@ -10,6 +10,7 @@
         width: 100%;
         text-align: center;
         padding: 0px 16px;
+        /* color: black; */
     }
 
     /* failure secdtion */
@@ -30,6 +31,7 @@
     
     .failure-text{
         width: 100%;
+        margin-top: 32px;
     }
 
     .failure-text > h1{
@@ -58,6 +60,19 @@
         font-size: 16px;
         font-weight: 500;
         padding: 8px 10px;
+    }
+
+    .footer-info{
+        flex-direction: column;
+    }
+
+    .left-footer,
+    .right-footer{
+        width: 100%;
+    }
+
+    .right-footer{
+        margin-top: 32px;
     }
 }
 
