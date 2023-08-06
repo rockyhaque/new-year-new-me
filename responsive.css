@@ -82,6 +82,12 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
+    .right-footer{
+        margin-left: 150px;
+    }
 
+    .email-input input{
+        width: 30%;
+    }
 }
 
