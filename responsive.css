@@ -73,6 +73,11 @@
 
     .right-footer{
         margin-top: 32px;
+        margin-left: 0px;
+    }
+
+    .email-input input{
+        width: 30%;
     }
 }
 

@@ -178,6 +178,7 @@
 .right-footer{
     width: 50%;
     /* margin: auto; */
+    margin-left: 300px;
 }
 
 form{
